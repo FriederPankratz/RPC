@@ -14,21 +14,8 @@
 
 #include <string>
 #include <iostream>
-
-namespace boost
-{
-    class thread;
-
-    namespace asio
-    {
-        class io_service;
-    }
-
-    namespace system
-    {
-        class error_code;
-    }
-}
+#include <boost/thread.hpp>
+#include <boost/asio.hpp>
 
 namespace eprosima
 {
